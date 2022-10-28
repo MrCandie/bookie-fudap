@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* .spinner {
+  width: 2rem;
+  height: 2rem;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: spin 1.5s linear infinite;
+}
+.spin {
+  width: 1rem;
+  height: 1rem;
+  background: red;
+  border-radius: 50%;
+}
+@keyframes spin {
+  0% {
+    transform: translateX(-10rem);
+  }
+  25% {
+    transform: translateX(0rem);
+  }
+  50% {
+    transform: translateX(0rem);
+  }
+
+  100% {
+    transform: translateX(10rem);
+  }
+} */

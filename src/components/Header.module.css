@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+}
+.logo {
+  margin: 1rem;
+}
+.header h1 {
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 50%;
+  background: orangered;
+}
+.home {
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .header {
+    height: 70px;
+  }
+  .header h1 {
+    font-size: 1rem;
+  }
+  .home {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,50 @@
+.container {
+  width: 40%;
+  margin: 1rem auto;
+}
+/* .search {
+  background: #333;
+} */
+.input {
+  padding: 1rem;
+  width: 80%;
+  border: none;
+  background: #ccc;
+  border-bottom: 1px solid orange;
+  color: #000;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+.input:focus {
+  outline: none;
+}
+.button {
+  padding: 1rem;
+  width: 20%;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  background: orangered;
+  transition: all 0.5s;
+}
+.button:hover,
+.button:active {
+  background: orange;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 80%;
+  }
+  .button {
+    width: 100%;
+    padding: 0.7rem;
+    color: #fff;
+    font-size: 1rem;
+  }
+  .input {
+    width: 100%;
+    padding: 0.8rem;
+    text-align: center;
+  }
+}
